@@ -1,0 +1,16 @@
+ {
+     "name": "Sweaty - Activity Tracker", //splashscreen
+     "shortname": "Sweaty", //below icon
+     "start_url": "/index.html", //which page to load on startup in home screen// looking for public folder
+     "scope" :".",//Which pages are included in pwa experience, we say all of them//
+     "display": "standalone", //should it look like a standalone app, it looks like native app, could be 'fullscreen' 
+     "background_color": "#fff", //background whislist loading & on splashscreen
+     "theme_color" :"#EF51B5", //Theme color (e.g. top bar in task switcher)
+     "description": "Keep running until you're super sweaty", //description to save like in favorites for example.
+     "dir" : "ltr", //read direction of your app
+    "lang": "en-US",  //Main language of app
+    "orientation": "portrait-primary",  //set default orientation//
+     //"icons": [{"src":"path", "type":"image type", "sizes":"icon size"},{...}], //browaer choose the better one//
+    "related_application": [] //native app relations, we can show to user, like url or open google play    
+ }
+ 
